@@ -4,6 +4,7 @@
 
 This a challenge for a WordPress Developer role. In this case I have to build the following design:
 
+
 **This is the "regular size" of the web:**
 
 ![Webpage in regular screen size](./images/Assessment.jpg)
@@ -12,12 +13,18 @@ This a challenge for a WordPress Developer role. In this case I have to build th
 
 ![Webpage in regular screen size](./images/Assessment-wider.jpg)
 
+
 **Colors and Fonts**:
 
 **Red**: #ab3c3c
+
 **Dark Blue/Green**: #314b57
+
 **Heading Font**: Roboto Slab (Google Fonts): https://www.google.com/fonts/specimen/Roboto+Slab
+
 **Paragraph Font**: Helvetica, Arial These are the font
+
+
 
 **Some guidelines and some notes**:
 
