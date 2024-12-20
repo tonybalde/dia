@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+/* Colors */
+
+:root {
+    --red: #ab3c3c;
+    --dark-blue-green: #314b57;
+}
+
+/* Headings Font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700; /* Bold */
+}
+
+/* Paragraph and general text */
+body, p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400; /* Regular */
+    line-height: 1.6; /* Space for better reading */
+}
+
