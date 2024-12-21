@@ -13,8 +13,13 @@
     --dark-blue-green: #314b57;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 /* Headings Font */
-h1, h2, h3, h4, h5, h6 {
+h1 {
     font-family: "Roboto Slab", serif;
     font-weight: 700; /* Bold */
 }
@@ -40,12 +45,11 @@ body, p {
 
 .titleServices{
     padding-top: 3.5px;
-    
 }
 
 .servicesContainer{
     display: flex;
-    gap: 20px;
+    gap: 19.4px;
     padding-top: 5px;
     
 }
@@ -67,5 +71,39 @@ body, p {
 }
 
 .map{
-    margin-left: 7px;
+    margin-left: 7.5px;
 }
+
+.ourServiceAreaTitle{
+    padding-left: 18px;
+    letter-spacing: -.5px;
+    font-size: 52px;
+}
+
+.ourServiceImgAndParagraph{
+    display: flex;
+    margin-top: -4px;
+    margin-left: 15px;
+}
+
+.ourServiceAreaImg{
+    margin-top: 1px;
+}
+
+.ourServiceImgAndParagraphRedLinks{
+    max-width: 750px;
+    margin-left: 35px;
+    margin-top: -2px;
+    word-spacing: 2.5px;
+    line-height: 1.66;
+    
+}
+
+.FurnanceRepairServiceAreas{
+    margin-top: 40px;
+}
+
+.FurnanceRepairServiceAreas, .AirConditioningRepairServiceAreas{
+    color: var(--red);
+    
+} 
