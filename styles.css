@@ -26,6 +26,7 @@ h1 {
 
 p {
     color: var(--dark-blue-green);
+    font-family: Helvetica, Arial;
 }
 
 /* Paragraph and general text */
@@ -35,20 +36,19 @@ body, p {
     line-height: 1.6; /* Space for better reading */
 }
 
-
-
 .servicesAndMapContainer{
     display: flex;
     background-color: var(--dark-blue-green);
     gap: 18px;
     padding-left: 17px;
-    color: rgb(226, 10, 10);
+    color: white;
     letter-spacing: 0.3px;
     font-size: 12px;
 }
 
 .titleServices{
     padding-top: 3.5px;
+    word-spacing: .7px;
 }
 
 .servicesContainer{
@@ -74,14 +74,21 @@ body, p {
     padding-top: 7.5px;
 }
 
+.headerLinks{
+    color: white;
+    margin-top: -4px;
+}
+
 .map{
     margin-left: 7.5px;
+    margin-bottom: -5px;
 }
 
 .ourServiceAreaTitle{
     padding-left: 18px;
     letter-spacing: -.5px;
     font-size: 52px;
+    color: var(--red);
 }
 
 .ourServiceImgAndParagraph{
@@ -104,6 +111,11 @@ body, p {
 
 .FurnanceRepairServiceAreas{
     margin-top: 40px;
+    letter-spacing: -.2px;
+}
+
+.AirConditioningRepairServiceAreas{
+    letter-spacing: .2px;
 }
 
 .FurnanceRepairServiceAreas, .AirConditioningRepairServiceAreas{
@@ -117,7 +129,7 @@ body, p {
 }
 
 .articlesTitle{
-    color: black;
+    color: var(--red);
     font-size: 38px;
     letter-spacing: .86px;
 }
@@ -141,8 +153,28 @@ body, p {
 
 .readMore {
     color: var(--red);
-    margin-top: 13px;
+    margin-top: 12px;
     font-size: 18px;
     text-decoration: underline;
-    
+}
+
+@media screen and (min-width:1600px){
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicesAndMapContainer{
+        display: flex;
+        background-color: var(--dark-blue-green);
+        gap: 18px;
+        padding-left: 17px;
+        color: white;
+        letter-spacing: 0.3px;
+        font-size: 12px;
+        width: 100vw;
+        justify-content: center;
+    }
 }
