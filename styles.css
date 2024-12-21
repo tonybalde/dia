@@ -158,7 +158,136 @@ body, p {
     text-decoration: underline;
 }
 
-@media screen and (min-width:1600px){
+
+
+
+
+@media (max-width: 575px) {
+
+    body{
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 260px;
+        background-color: #0084ff;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .servicesAndMapContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .titleServices{
+        font-size: 18px;
+    }
+
+    .map{
+        width: 200px;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .serviceAreaContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .ourServiceAreaTitle{
+        font-size: 18px;
+    }
+
+    .ourServiceAreaImg{
+        width: 200px;
+    }
+
+
+    .ourServiceImgAndParagraphRedLinks{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .servicesContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ourServiceImgAndParagraph{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paraService{
+        width: 200px;
+    }
+
+    .FurnanceRepairServiceAreas, .AirConditioningRepairServiceAreas{
+        width: 200px;
+    }
+
+    .articlesContainer{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .helpfulHeatingAndAirArticles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .articlesTitle{
+        font-size: 18px;
+    }
+
+    .articleImg{
+        width: 200px;
+    }
+
+    .articleParagraph{
+        width: 200px;
+    }
+
+ 
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (max-width: 991px) {
+} 
+
+
+
+  @media (min-width:1600px){
     .mainContainer{
         display: flex;
         flex-direction: column;
@@ -167,14 +296,10 @@ body, p {
     }
 
     .servicesAndMapContainer{
-        display: flex;
-        background-color: var(--dark-blue-green);
-        gap: 18px;
-        padding-left: 17px;
-        color: white;
-        letter-spacing: 0.3px;
-        font-size: 12px;
         width: 100vw;
         justify-content: center;
     }
-}
+  }
+
+
+
