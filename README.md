@@ -57,6 +57,10 @@ This a challenge for a WordPress Developer role. In this case I have to build th
 ![Responsive2](./images/Responsive2.png)
 ![Responsive3](./images/Responsive3.png)
 
+**The Desktop  Screenshot**:
+
+![Widescreen](./images/Desktop.png)
+
 **And this is the "wide screen size" Screenshot**:
 
 ![Widescreen](./images/WideScreen.png)
