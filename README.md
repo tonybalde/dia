@@ -50,5 +50,18 @@ This a challenge for a WordPress Developer role. In this case I have to build th
   * Android Chrome
   * Smallest viewport width supported is 320px (iPhone SE screen width)
 
+
+**These are some responsive screenshots of the web:**
+
+![Responsive1](./images/responsive1.png)
+![Responsive2](./images/Responsive2.png)
+![Responsive3](./images/Responsive3.png)
+
+**And this is the "wide screen size" Screenshot**:
+
+![Widescreen](./images/WideScreen.png)
+
+
 You can visit the page at: https://dia-assesment.vercel.app/
+
 
