@@ -158,32 +158,19 @@ body, p {
     text-decoration: underline;
 }
 
-
-
-
+/* Responsive */
 
 @media (max-width: 575px) {
-
-    body{
-        background-color: green;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
-        margin: 0;
-        padding: 0;
-    }
 
     .mainContainer{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 260px;
-        background-color: #0084ff;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
+        padding: 2px;
     }
 
     .servicesAndMapContainer{
@@ -197,14 +184,20 @@ body, p {
     }
 
     .titleServices{
-        font-size: 18px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .mapContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -20px;
+        padding-right: 2px;
     }
 
     .map{
-        width: 200px;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
+        width: 100%;
     }
 
     .serviceAreaContainer{
@@ -216,13 +209,17 @@ body, p {
     }
 
     .ourServiceAreaTitle{
-        font-size: 18px;
+        font-size: 22px;
+        padding-top: 16px;
+        padding-bottom: 22px;
     }
 
     .ourServiceAreaImg{
-        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
-
 
     .ourServiceImgAndParagraphRedLinks{
         margin-left: 0;
@@ -237,19 +234,27 @@ body, p {
     .ourServiceImgAndParagraph{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
     }
 
     .paraService{
-        width: 200px;
+        width: 100%;
+        margin-top: 12px;
+        padding: 0 8px;
+        text-align: justify;
     }
 
     .FurnanceRepairServiceAreas, .AirConditioningRepairServiceAreas{
-        width: 200px;
+        width: 100%;
+        padding: 0 8px;
     }
 
     .articlesContainer{
         display: flex;
         flex-direction: column;
+        padding: 0 8px;
 
     }
 
@@ -259,18 +264,34 @@ body, p {
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin: 0;
+        padding-top: 16px;
+    }
+
+    .articlesContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border: 2px soid rgb(26, 73, 4);
+    }
+
+    .article{
+        width: 100%;
+        border: 1px solid red;
     }
 
     .articlesTitle{
-        font-size: 18px;
+        font-size: 22px;
+        text-align: center;
     }
 
     .articleImg{
-        width: 200px;
+        width: 100%;
     }
 
     .articleParagraph{
-        width: 200px;
+        width: 100%;
     }
 
  
